@@ -5,10 +5,14 @@ To write a python program to find the inverse of a matrix
 1. 	Hardware – PCs
 2. 	Anaconda – Python 3.7 Installation / Moodle-Code Runner
 ## Algorithm:
-### Step1 : Check if the matrix is square and calculate the determinant.
-### Step 2: If the determinant is non-zero, calculate the adjugate matrix by finding the cofactors and transposing.
-### Step 3: Divide each element of the adjugate matrix by the determinant.
-### Step 4:Return the resulting matrix as the inverse. 
+### Step1 : Start the Program.
+### Step 2: Use import numpy as np to access numerical functions, including matrix operations.
+### Step 3: Create a 3×3 matrix A using np.array, for example:
+### Step 4: Compute the determinant using np.linalg.det(A) and ensure it is not zero:
+### Step 5: Use np.linalg.inv(A) to calculate the inverse of matrix A.
+### Step 6: Use print(result) to print the inverse matrix.
+### Step 7: End the Program
+
 
 ## Program:
 ```
